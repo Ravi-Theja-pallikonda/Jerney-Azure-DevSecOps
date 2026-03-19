@@ -14,12 +14,12 @@ TechStack: React  Node.js  PostgreSQL
 
 
 🏗️ Architecture
-┌──────────────┐     ┌──────────────┐     ┌──────────────┐
-│   Frontend   │────▶│   Backend    │────▶│  PostgreSQL   │
+┌──────────────┐     ┌──────────────┐      ┌──────────────┐
+│   Frontend   │────▶│   Backend    │────▶│  PostgreSQL  │
 │   (React +   │◀────│  (Node.js +  │◀────│              │
-│    Nginx)    │     │   Express)   │     │              │
-│   Port 80    │     │  Port 5000   │     │  Port 5432   │
-└──────────────┘     └──────────────┘     └──────────────┘
+│    Nginx)    │     │   Express)   │      │              │
+│   Port 80    │     │  Port 5000   │      │  Port 5432   │
+└──────────────┘     └──────────────┘      └──────────────┘
 
 
 📁 Project Structure
