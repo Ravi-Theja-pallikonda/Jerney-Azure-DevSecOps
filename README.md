@@ -3,19 +3,16 @@
 🛤️ Jerney — Blog Platform
 A Gen-Z vibe blog platform built with a 3-tier architecture — React frontend, Node.js backend, and PostgreSQL database.
 
-Tech Stack Tech Stack Tech Stack
+TechStack: React  Node.js  PostgreSQL
 
-Important
-
-Looking for the full DevSecOps implementation? Switch to the devops branch for Docker, Kubernetes (EKS Auto Mode), Terraform, CI/CD with GitHub Actions, container security scanning, and more.
-
-git checkout devops
 ✨ Features
 📝 Create blog posts with emoji vibes
 ✏️ Edit your existing posts
 🗑️ Delete posts you're not feeling anymore
 💬 Comment on posts
 🎨 Gen-Z dark UI with glassmorphism and gradients
+
+
 🏗️ Architecture
 ┌──────────────┐     ┌──────────────┐     ┌──────────────┐
 │   Frontend   │────▶│   Backend    │────▶│  PostgreSQL   │
@@ -23,6 +20,8 @@ git checkout devops
 │    Nginx)    │     │   Express)   │     │              │
 │   Port 80    │     │  Port 5000   │     │  Port 5432   │
 └──────────────┘     └──────────────┘     └──────────────┘
+
+
 📁 Project Structure
 Jerney/
 ├── frontend/                # React (Vite) frontend
