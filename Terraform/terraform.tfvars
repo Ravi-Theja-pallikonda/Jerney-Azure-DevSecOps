@@ -1,5 +1,5 @@
 resource_group_name = "aks-dev-rg"
-location            = "Central India"
+location            = "East US"
 
 cluster_name        = "jerney-aks"
 kubernetes_version  = "1.34.3"
